@@ -22,23 +22,23 @@ func main() {
     fmt.Println("Grab and GO!")
   } else if isHeistOn {
     isHeistOn = false
-    fmt.Println("The vault can't be opened you schmuck!")
+    fmt.Println("The vault can't be opened schmucko!")
   }
   leftSafely := rand.Intn(5)
   if isHeistOn {
     switch leftSafely {
       case 0:
         isHeistOn = false
-        fmt.Println("You tripped the alarm loser")
+        fmt.Println("You tripped the alarm nimwit")
       case 1:
         isHeistOn = false
-        fmt.Println("Turns out vaults don't open from the inside dumbass.")
+        fmt.Println("Turns out vaults don't open from the inside dimwit.")
       case 2:
         isHeistOn = false
-        fmt.Println("Jeez you suck at this.")
+        fmt.Println("Jeez you stink at this.")
       case 3:
         isHeistOn = false
-        fmt.Println("You forgot to add gas to your getaway car jackass!")
+        fmt.Println("You forgot to add gas to your getaway car duh!")
       default:
         isHeistOn = true
         fmt.Println("Let's go go go go go go go go!!!!!")
